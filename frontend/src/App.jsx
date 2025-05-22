@@ -9,7 +9,9 @@ function App() {
     <>
     <div className="bg-black w-screen h-screen flex justify-center items-center overflow-hidden">
       <h1 className="floating-heading absolute text-[12rem] md:text-[18rem] md:rotate-0 rotate-90">CroppD</h1>
-      <ShortenUrl></ShortenUrl>
+       <div className="relative z-10">
+          <ShortenUrl />
+      </div>
     </div>
     </>
   )

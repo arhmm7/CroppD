@@ -69,7 +69,7 @@ function ShortenUrl() {
                     </>
                 )}
 
-        <div className="absolute bottom-4 flex items-center gap-3 text-white text-sm">
+        <div className="absolute bottom-5 flex items-center gap-3 text-white text-sm">
             <a
             href="https://github.com/arhmm7"
             target="_blank"

@@ -16,7 +16,7 @@ function ShortenUrl() {
     const isValidUrl = isUrl(fixedUrl);
         if (isValidUrl) {
             try {
-                const data = await axios.post("http://localhost:3000/api/create", { url: fixedUrl });
+                const data = await axios.post("https://croppd-backend.onrender.com/api/create", { url: fixedUrl });
                 setShort(data.data);
             } catch (error) {
                 console.error("Error creating short URL:", error);

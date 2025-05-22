@@ -6,7 +6,7 @@ export const  createShortUrl = async (req,res,next) => {
     try {
         const { url } = req.body;
         const shortUrl = await createShortUrlService(url);
-        res.send(process.env.APP_URL + shortUrl);
+        res.send("https://croppd-backend.onrender.com" + shortUrl);
     }
     catch(err) {
         next(err);

@@ -29,7 +29,7 @@ function ShortenUrl() {
     };
 
     const handleCopy = () => {
-        navigator.clipboard.writeText(shortUrl);
+        navigator.clipboard.writeText(short);
         setCopied(true);
 
         setTimeout(() => {

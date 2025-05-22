@@ -92,10 +92,8 @@ function ShortenUrl() {
             LinkedIn
             </a>
             </div>
+            <p className="pt-2 pb-2 text-[10px]">© {new Date().getFullYear()} CroppD. All rights reserved.</p>
         </div>
-            <div className="absolute bottom-1 text-xs text-gray-500">
-            © {new Date().getFullYear()} CroppD. All rights reserved.
-            </div>
 
         </>
     );
